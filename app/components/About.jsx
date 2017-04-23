@@ -14,7 +14,6 @@ const About = (props) => {
     return (
         <div>
             <h2 className="text-center page-title">About This App</h2>
-            <p className="text-center">This weather application searches Open Weather Map for the current temperature.</p>
             <p className="text-center">Team Mead for Life.</p>
             <h4 className="text-center">Development Tools:</h4>
             <ol>
