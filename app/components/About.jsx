@@ -2,14 +2,6 @@ const
 React = require("react"),
 {Link} = require("react-router")
 
-// const About = React.createClass({
-//     render: function() {
-//         return (
-//             <h3>About Component</h3>
-//         );
-//     }
-// });
-
 const About = (props) => {
     return (
         <div>
@@ -24,10 +16,13 @@ const About = (props) => {
                     <a href="https://openweathermap.org">Open Weather Map</a> - Weather API
                 </li>
                 <li>
-                    <a href="https://babeljs.io">Babel</a> - JavaScript Transpiler for ES6 and React Support
+                    <a href="https://babeljs.io">Babel</a> - JavaScript Transpiler for ES6 and React
                 </li>
                 <li>
                     <a href="https://foundation.zurb.com">Foundation</a> - Responsive Frontend Framework
+                </li>
+                <li>
+                    <a href="https://sass-lang.org">SASS</a> - With Node Sass for SCSS Compilation
                 </li>
                 <li>
                     <a href="https://heroku.com">Heroku</a> - Cloud Environment to Host Application
